@@ -6,7 +6,7 @@ This project origins from an issue in openEuler community (link below). We devel
 
 https://gitee.com/openeuler-competition/summer-2021/issues/I3ESBZ
 
-kudpDetector aims to detect Linux kernel UDP packet loss and delay in real-time to help developers locate problematic kernel functions quickly. For packet loss detection, kudpDetector mainly outputs names and return values of kernel functions where UDP packet loss happens. For UDP packet lelay detection, kudpDetector mainly outputs names and execution time of kernel functions with an abnormally high execution time.
+kudpDetector aims to detect Linux kernel UDP packet loss and delay in real-time to help developers locate problematic kernel functions quickly. For packet loss detection, kudpDetector mainly outputs names and return values of kernel functions where UDP packet loss happens. For UDP packet delay detection, kudpDetector mainly outputs names and execution time of kernel functions with an abnormally high execution time.
 
 ### Prerequisites
 
@@ -75,6 +75,6 @@ Reverse path filtering is a firewall behavior to drop packets routed back to the
 In *scripts* directory, execute *tc_delay.sh* to setup UDP function delay scenario(Default delay is 10000us, if your want to test on your machine, modify *IF* and *DST_CIDR* variables to make them corresponds to your machine's configurations)
 
 ```
-tc_delay.sh
+./tc_delay.sh
 ```
 
