@@ -10,7 +10,7 @@ kudpDetector aims to detect Linux kernel UDP packet loss and delay in real-time 
 
 ### Prerequisites
 
-All the steps below are performed on openEuler 20.03 LST (linux kernel version 5.10.0).
+All the steps below are performed on openEuler 20.03 LST (linux kernel version 5.10.0) as root user.
 
 kudpDetector leverages *netstat* to show the number of dropped UDP packets, so *net-tools* is required. 
 
