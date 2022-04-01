@@ -68,7 +68,7 @@ Open a new terminal, execute *kudpDetector.sh* to see the results
 
 ##### UDP packet loss scenario 3 - reverse path filtering
 
-Reverse path filtering is a firewall behavior to drop packets routed back to their incoming network interface. See [*rp_filter and LPIC-3 Linux Security*](https://www.theurbanpenguin.com/rp_filter-and-lpic-3-linux-security/) to setup the packet loss scenario.(or [Chinese version](www.tinymema.cn))
+Reverse path filtering is a firewall behavior to drop packets routed back to their incoming network interface. See [*rp_filter and LPIC-3 Linux Security*](https://www.theurbanpenguin.com/rp_filter-and-lpic-3-linux-security/) to setup the packet loss scenario.(or [Chinese version](https://www.tinymema.cn))
 
 ##### UDP function delay scenario 1 - tc
 
